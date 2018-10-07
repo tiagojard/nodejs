@@ -175,7 +175,7 @@ app.get("*", function (req, res, next) {
   }).catch(next);
 });
 
-app.listen(8080, function () {
+app.listen(80, function () {
   console.log("Server is listening on port: 3000");
 });
 
